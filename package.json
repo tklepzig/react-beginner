@@ -1,0 +1,31 @@
+{
+    "name": "react-beginner",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/bundle.js",
+    "scripts": {
+        "build": "webpack --progress --profile --devtool inline-source-map",
+        "dev": "webpack-dev-server --hot --inline --progress --devtool eval",
+        "prod": "webpack -p --config webpack.config.js --progress --devtool inline-source-map"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^15.1.0",
+        "react-dom": "^15.1.0"
+    },
+    "devDependencies": {
+        "css-loader": "^0.23.1",
+        "extract-text-webpack-plugin": "^1.0.1",
+        "html-webpack-plugin": "^2.21.0",
+        "node-sass": "^3.8.0",
+        "postcss-loader": "^0.9.1",
+        "sass-loader": "^3.2.0",
+        "source-map-loader": "^0.1.5",
+        "style-loader": "^0.13.1",
+        "ts-loader": "^0.8.2",
+        "typescript": "^1.8.10",
+        "webpack": "^1.13.1",
+        "webpack-dev-server": "^1.14.1"
+    }
+}
